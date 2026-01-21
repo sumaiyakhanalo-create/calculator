@@ -1,5 +1,5 @@
 body {
-    background: #000000; /* full black background */
+    background: #ff0000; /* bright red background */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,15 +8,15 @@ body {
 }
 
 .calculator {
-    background: #000000; /* black calculator body */
+    background: #ff1a1a; /* slightly darker red for calculator body */
     padding: 20px;
     border-radius: 20px;
     width: 280px;
-    box-shadow: 0 8px 15px rgba(255,0,0,0.3); /* red glow */
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3); /* black shadow */
 }
 
 .display {
-    background: #111111; /* dark display */
+    background: #330000; /* dark red display */
     color: #39ff14; /* neon green numbers */
     height: 60px;
     border-radius: 10px;
@@ -26,7 +26,7 @@ body {
     justify-content: flex-end;
     align-items: center;
     padding-right: 12px;
-    box-shadow: inset 0 2px 5px rgba(255,0,0,0.2);
+    box-shadow: inset 0 2px 5px rgba(0,0,0,0.3);
 }
 
 .buttons {
@@ -37,7 +37,7 @@ body {
 
 .btn {
     height: 55px;
-    background: #ff0000; /* bright red buttons */
+    background: #000000; /* black buttons */
     color: white; /* white text */
     font-size: 18px;
     border-radius: 12px;
@@ -45,7 +45,7 @@ body {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    box-shadow: 0 4px #990000; /* dark red shadow */
+    box-shadow: 0 4px #333333; /* dark gray shadow */
 }
 
 .btn:hover {
@@ -53,21 +53,20 @@ body {
 }
 
 .operator {
-    background: #cc0000; /* darker red for operators */
-    box-shadow: 0 4px #660000;
+    background: #111111; /* darker black for operators */
+    box-shadow: 0 4px #000000;
 }
 
 .function {
-    background: #ff4d4d; /* lighter red for C, DEL, % */
-    box-shadow: 0 4px #990000;
+    background: #222222; /* dark gray for C, DEL, % */
+    box-shadow: 0 4px #000000;
 }
 
 .equal {
-    background: #ff0000; /* equal button same red */
-    box-shadow: 0 4px #990000;
+    background: #000000; /* equal button black */
+    box-shadow: 0 4px #333333;
 }
 
 .zero {
     grid-column: span 2;
 }
-Write to Muksit Arman
