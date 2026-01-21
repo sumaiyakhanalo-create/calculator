@@ -1,0 +1,73 @@
+body {
+    background: #000000; /* full black background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.calculator {
+    background: #000000; /* black calculator body */
+    padding: 20px;
+    border-radius: 20px;
+    width: 280px;
+    box-shadow: 0 8px 15px rgba(255,0,0,0.3); /* red glow */
+}
+
+.display {
+    background: #111111; /* dark display */
+    color: #39ff14; /* neon green numbers */
+    height: 60px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 28px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 12px;
+    box-shadow: inset 0 2px 5px rgba(255,0,0,0.2);
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.btn {
+    height: 55px;
+    background: #ff0000; /* bright red buttons */
+    color: white; /* white text */
+    font-size: 18px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px #990000; /* dark red shadow */
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
+
+.operator {
+    background: #cc0000; /* darker red for operators */
+    box-shadow: 0 4px #660000;
+}
+
+.function {
+    background: #ff4d4d; /* lighter red for C, DEL, % */
+    box-shadow: 0 4px #990000;
+}
+
+.equal {
+    background: #ff0000; /* equal button same red */
+    box-shadow: 0 4px #990000;
+}
+
+.zero {
+    grid-column: span 2;
+}
+Write to Muksit Arman
